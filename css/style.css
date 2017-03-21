@@ -1,0 +1,186 @@
+/*==============FONTS===========================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+
+
+
+/*-=============UNIVERSALS===========*/
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right;
+}
+
+.inline {
+    display: inline;
+}
+
+.position-topright {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.cover {
+    background-size: cover;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-right {
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-family: 'Lotto', sans-serif;
+    line-height: 3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 35px;
+}
+
+.active {
+    border-radius: 50%;
+    background-color:#fff;
+    padding: 10px;
+}
+
+.active a {
+    color:#000;
+}
+
+/*==========COLORS===============*/
+.white-text {
+    color: white;
+}
+
+/*==========ID'S================*/
+#hero {
+    background-image: url(../img/Hero.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+#blog-links {
+    padding-left: 0;
+}
+
+
+/*============HEADER==================*/
+
+#logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/homeLogo.jpg);
+    position: absolute;
+}
+
+header {
+    height: 150px;
+    padding: 16px;
+    background-color: #000;
+}
+
+header a {
+    color: #fff;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+
+
+/*=================HERO======================*/
+
+.title-style {
+    color: #fff;    
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 42%;
+}
+
+
+/*==================SIDEBAR==========================*/
+
+aside {
+    width: 30%;
+    height: 350px;
+    background-color: #000;
+    float: left;
+}
+
+aside a {
+    color:#fff;
+}
+
+aside li {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.blog-link:hover a, .blog-link:hover{
+    background-color: #eeee77;
+    color: #000;
+}
+
+
+
+
+
+/*======================MAIN SECTION=====================*/
+#main-hading {
+    font-weight: 800;
+}
+
+main {
+    float: right;
+    width: 70%;
+    height: 350px;
+    overflow: auto;
+}
+
+
+/*=====================FOOTER SECTION===============================*/
+footer {
+    height: 95px;
+    background-color: #333;
+    clear: both;
+    padding: 8px 3px;
+}
+
+footer div a {
+    color: #000;
+}
+
+.fa {
+    margin-left: 8px;
+}
+
+footer #social-media a:hover {
+    color: #fff;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 10px;
+}
